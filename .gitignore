@@ -1,0 +1,16 @@
+node_modules/
+pnpm-lock.yaml
+
+# Generated test artifacts
+samples/out-*.xlsx
+samples/api-out*.xlsx
+samples/*.wav
+samples/*-report.txt
+scripts/*-report.txt
+scripts/*-scan.txt
+
+# Local scratch
+*.log
+*.tmp
+.tmp*
+test-out.txt
