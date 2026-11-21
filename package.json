@@ -3,6 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "description": "拖入学生花名册，念名字、听成绩、自动回读，最后一键导出带成绩的新表。",
+  "license": "Apache-2.0",
+  "author": "cyicz123",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyicz123/dsh-roster-score.git"
+  },
+  "homepage": "https://github.com/cyicz123/dsh-roster-score#readme",
+  "bugs": {
+    "url": "https://github.com/cyicz123/dsh-roster-score/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "roster",
+    "speech",
+    "education"
+  ],
   "type": "module",
   "exports": {
     ".": "./index.js",
@@ -16,8 +33,7 @@
     "lib",
     "locale",
     "icon.svg",
-    "cordis.patch.yml",
-    "docs"
+    "cordis.patch.yml"
   ],
   "dsh": {
     "bundle": {

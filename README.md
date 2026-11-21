@@ -74,3 +74,7 @@ node test\score.test.mjs        # 分数识别
 - 一次只录一列成绩，多科目重复跑一次。
 - 识别需要「说完再识别」，不是持续监听。
 - 名单会发给当前会话的模型做解析（本机默认走 kedaya.ai 上的 deepseek-v4.1-flash）。
+
+## 许可
+
+[Apache License 2.0](LICENSE) © cyicz123
